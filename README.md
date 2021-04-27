@@ -16,8 +16,8 @@
 
 Indentar é o recuo do texto em relação a sua margem.
 
-'''
+```
 variavel = 10
 if (variavel > 5):
     print("Código Identado")
-'''
+```
