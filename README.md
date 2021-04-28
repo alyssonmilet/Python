@@ -33,6 +33,8 @@ print("Hello World")
 ```
 
 ### Imprimindo Variáveis
+Abaixo podemos visualizar 4 formas de exportar a informação da variável para o usuário.
+
 ```
 nome = "Felipe"
 sobrenome = "Silva"
@@ -53,11 +55,16 @@ print(f"Olá {nome} {sobrenome}, sua idade é {idade} anos")
 print("Olá {} {} sua idade é {} anos".format(nome,sobrenome, idade))
 ```
 
-### Criando variáveis
-nome = "Felipe"
-idade = 25
-nota = 2.5
-éAdulto = False
+### Entrada de Dados
 
+Adiciona-se o input() para guardar a informação do usuário em uma variável.
+```
+nome = input("Digite seu nome: ")
+sobrenome = input("Digite seu sobrenome: ")
+idade = input("Digite sua idade: ")
+
+print(f"{nome} {sobrenome} tem {idade} anos")
+
+```
 
 
