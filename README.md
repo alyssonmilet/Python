@@ -48,6 +48,9 @@ print("Olá", nome, sobrenome, "sua idade é ", idade, "anos")
 \\\ Método 03 (F String)
 print(f"Olá {nome} {sobrenome}, sua idade é {idade} anos")
 
+
+\\\ Método 04 
+print("Olá {} {} sua idade é {} anos".format(nome,sobrenome, idade))
 ```
 
 ### Criando variáveis
