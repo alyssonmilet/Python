@@ -101,3 +101,62 @@ nome, email, telefone = "Alysson","alysson@email.com","79999999999"
 Não esquecer das vírgulas para separar os dados. 
 
 
+### Operador Aritmético
+
+Um operador aritmético são utilizados para comparar valores de variáveis ou expressões. Uma expressão aritmética retorna como resultado um valor numérico. 
+Abaixo temos os principais operadores aritméticos utilizado no _*Python*_. 
+
+
+Operação  | Operador | Resultado
+--------- | ------ | ------
+Adição | + | Soma de dois ou mais valores
+Subtração | - | Subtração de dois ou mais valores
+Multiplicação | * | Multiplicação de dois ou mais valores
+Divisão | / | Divisão 2/7, que retorna valor sem arrendondamento
+Exponenciação | ** | Potência entre os valores informados 2²
+Divisão Inteira | // | Retorna a parte inteira da divisão
+Módulo | % | Retorna o resto da divisão
+
+~~~Python
+print(10 + 10)
+#output = 20
+
+print(10 - 2)
+#output = 8
+
+print(10 * 5)
+#output = 50
+
+print(10 / 2 )
+#output = 5
+
+print(5 // 2 )
+#output = 2
+
+print(5 % 2 )
+#output = 1
+~~~
+
+### Precedência dos Operadores Aritméticos
+
+Conforme acontece na matemática, alguns operadores aritméticos possuem precedência sobre outros. 
+
+5 + 2 * 8 - 2 
+
+#### Regras de precedência dos operadores matemáticos
+
+Agora que já vimos uma porção de operadores matemáticos, é pertinente falar sobre as regras de precedência que regem a ordem de avaliação das operações dentro de uma expressão matemática. Python segue a mesma convenção usada na matemática; a ordem de avaliação dos operadores, do de maior precedência para o de menor precedência, é a seguinte:
+
+1. Parênteses
+2. Exponenciação
+3. Multiplicação e divisão, que possuem a mesma precedência
+4. Adição e subtração, que possuem a mesma precedência
+
+~~~Python
+
+5 + 2 * 8 - 2 
+#output
+5 + 16 - 2 --> 19
+~~~
+
+
