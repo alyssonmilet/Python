@@ -68,3 +68,36 @@ print(f"{nome} {sobrenome} tem {idade} anos")
 ```
 
 
+### Atribuição de dados
+
+O valor de = (igual), siginifica que o a variável recebe um tal dado. 
+Quando temos,
+
+```
+nome = "João"
+```
+Significa que a variável nome, *recebe* o valor João, cujo o tipo de dado é uma String.
+Como o Python é uma linguagem dinâmica, não precisamos identificar o tipo de dado. 
+
+Para descobrir qual o tipo de dados, precisamos de somente executar o código abaixo.
+
+~~~Python
+v = 10
+t = "Teste"
+print(type(v))
+print(type(t))
+
+
+#output
+<class 'int'>
+<class 'str'>
+~~~
+
+Uma outra forma de atribuir um dado à uma variável é em uma atribução múltipla.
+
+~~~Python
+nome, email, telefone = "Alysson","alysson@email.com","79999999999"
+~~~
+Não esquecer das vírgulas para separar os dados. 
+
+
